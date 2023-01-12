@@ -25,5 +25,6 @@
   "strapi": {
     "uuid": "8b2cadd9-956c-49bf-a28a-b5a68c764f84"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@3.3.0"
 }
