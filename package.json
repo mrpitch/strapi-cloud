@@ -2,18 +2,26 @@
   "name": "strapi-cloud",
   "version": "0.0.0",
   "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ],
+    "nohoist": [
+      "strapi-cloud-test/**/**"
+    ]
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev & turbo run develop",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "start-docker": "cd apps/strapi-cloud-test && docker-compose up -d",
+    "stop-docker": "cd apps/strapi-cloud-test && docker-compose down -v"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
+    "eslint": "^7.32.0",
     "prettier": "latest",
     "turbo": "latest"
   },
