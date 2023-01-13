@@ -1,28 +1,32 @@
 {
   "name": "strapi-cloud-test",
   "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
+  "version": "1.0.0",
+  "description": "CMS for Golf PWAs",
   "scripts": {
-    "develop": "strapi develop",
+    "dev": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.5.6",
-    "@strapi/plugin-i18n": "4.5.6",
-    "@strapi/plugin-users-permissions": "4.5.6",
-    "@strapi/provider-upload-local": "^4.5.6",
-    "@strapi/strapi": "4.5.6",
-    "pg": "8.6.0",
-    "strapi-plugin-local-image-sharp": "^1.4.0"
+    "@strapi/plugin-graphql": "^4.5.1",
+    "@strapi/plugin-i18n": "4.5.1",
+    "@strapi/plugin-users-permissions": "4.5.1",
+    "@strapi/provider-upload-local": "^4.5.1",
+    "@strapi/strapi": "4.5.1",
+    "pg": "^8.7.3",
+    "strapi-plugin-local-image-sharp": "^1.2.1"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "mrpitch"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "8b2cadd9-956c-49bf-a28a-b5a68c764f84"
+    "uuid": "e479d935-1257-405e-8dc3-eca578117eab"
   },
   "license": "MIT"
 }

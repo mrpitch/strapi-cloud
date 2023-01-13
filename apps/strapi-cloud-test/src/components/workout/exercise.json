@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_workout_exercises",
+  "info": {
+    "displayName": "Exercise",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "exercise": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::exercise.exercise"
+    },
+    "sets": {
+      "type": "integer"
+    },
+    "reps": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

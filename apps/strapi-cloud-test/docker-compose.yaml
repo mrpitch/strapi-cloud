@@ -10,7 +10,7 @@ services:
       - POSTGRES_USER=${DATABASE_USERNAME}
       - POSTGRES_PASSWORD=${DATABASE_PASSWORD}
     volumes:
-      - ./database/strapi_cloud.sql.gz:/docker-entrypoint-initdb.d/strapi_cloud.sql.gz
+      - ./database/db_strapi_latest.sql.gz:/docker-entrypoint-initdb.d/db_strapi_latest.sql.gz
     ports:
       - "5432:5432"
 

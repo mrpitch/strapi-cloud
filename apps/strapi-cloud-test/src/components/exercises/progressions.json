@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_exercises_progressions",
+  "info": {
+    "displayName": "Progressions",
+    "icon": "chart-line",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "progressions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.image-text-section"
+    }
+  }
+}

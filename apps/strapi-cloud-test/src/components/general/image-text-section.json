@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_general_image_text_sections",
+  "info": {
+    "displayName": "Image Text Section",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "thumbnail": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "copy": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

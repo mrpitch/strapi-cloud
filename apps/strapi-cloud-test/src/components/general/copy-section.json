@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_general_copy_sections",
+  "info": {
+    "displayName": "Copy Section",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "copy": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_workout_days",
+  "info": {
+    "displayName": "Day",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "day": {
+      "type": "component",
+      "repeatable": true,
+      "component": "workout.exercise"
+    }
+  }
+}

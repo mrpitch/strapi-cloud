@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_exercises_steps",
+  "info": {
+    "displayName": "Steps",
+    "icon": "shoe-prints"
+  },
+  "options": {},
+  "attributes": {
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.image-text-section"
+    }
+  }
+}
